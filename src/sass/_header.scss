@@ -1,46 +1,78 @@
 /* HEADER */
 .header {
-    position: sticky;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: $white;
-    box-shadow: $boxShadow;
-    z-index: 1000;
-    & .flex{
-       display: flex;
-       align-items: center;
-       justify-content: space-between;
-       position: relative;
-       padding:1.5rem 2rem;
-       & .logo{
-          & img{
-             height: 4.5rem;
-          }
-       }
- 
-       & .navbar{
-         display: flex;
-          & a{
-             margin-left: 2rem;
-             font-size: 2rem;
-             color: $black;
-             text-transform: capitalize;
-             &:hover{
-                text-decoration: underline;
-                color: $primaryColor;
-             }
-          }
-          
-          & .active{
-            color: $primaryColor;
+   position: sticky;
+   top: 0;
+   left: 0;
+   right: 0;
+   background-color: $white;
+   box-shadow: $boxShadow;
+   z-index: 1000;
+
+   & .flex {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      padding: 1.5rem 2rem;
+
+      & .logo {
+         & img {
+            height: 4.5rem;
          }
-       }
-    }
-    & .menu-btn{
-       display: none;
-       font-size: 2.5rem;
-       color: $black;
-       cursor: pointer;
-    }
- }
+      }
+
+      & .navbar {
+         display: flex;
+         // clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+         @media(max-width: 768px) {
+            position: absolute;
+            top: 99%;
+            left: 0;
+            right: 0;
+            background-color: $white;
+            border-top: $border;
+            border-bottom: $border;
+            flex-direction: column;
+            display: none;
+         }
+
+         & a {
+            margin-left: 2rem;
+            font-size: 2rem;
+            color: $black;
+            text-transform: capitalize;
+
+            @media(max-width: 768px) {
+               display: block;
+               margin: 2rem;
+            }
+
+            &:hover {
+               text-decoration: underline;
+               color: $primaryColor;
+            }
+         }
+
+         & .active {
+            color: $primaryColor;
+            // clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+         }
+      }
+   }
+
+   & .menu-btn {
+      display: none;
+      font-size: 2.5rem;
+      color: $black;
+      cursor: pointer;
+
+      @media(max-width: 768px) {
+         display: inline-block;
+      }
+   }
+}
+
+// @media(max-width: 768px) {
+
+// }

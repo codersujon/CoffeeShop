@@ -1,36 +1,31 @@
 const ROUTES = [
     {
         key: 1,
-        to: "",
-        name: ""
-    },
-    {
-        key: 2,
         to: "/",
         name: "Home"
     },
     {
-        key: 3,
+        key: 2,
         to: "about",
         name: "About"
     },
     {
-        key: 4,
+        key: 3,
         to: "menu",
         name: "Menu"
     },
     {
-        key: 5,
+        key: 4,
         to: "gallery",
         name: "Gallery"
     },
     {
-        key: 6,
+        key: 5,
         to: "team",
         name: "Team"
     },
     {
-        key: 7,
+        key: 6,
         to: "contact",
         name: "Contact"
     },

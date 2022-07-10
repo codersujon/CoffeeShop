@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars , faTimes } from '@fortawesome/free-solid-svg-icons';
 import CustomNavLink from './CustomNavLink';
 import ROUTES from '../../routes';
 
 
 const Navbar = () => {
+
+  function handleClick(){
+    
+  }
+
   return (
     <>
       <nav className="navbar">
@@ -18,7 +23,7 @@ const Navbar = () => {
         })}
       </nav>
 
-      <div className="menu-btn">
+      <div className="menu-btn" onClick={handleClick}>
         <FontAwesomeIcon icon={faBars}></FontAwesomeIcon>
       </div>
     </>
