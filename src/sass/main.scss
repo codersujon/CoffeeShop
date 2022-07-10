@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Nunito:wght@200;300;400;500;600&display=swap');
+
+/* COLORS*/
+$white: #fff;
+$black: #333;
+$primaryColor: #be9c79;
+$lightColor: #666;
+
+/* BORDER */
+$border: .2rem solid var(--black);
+
+/* BOX-SHADOW */
+$box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; 
+    padding:0;
+    outline: none; 
+    border:none;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+ }
+
+ html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6.5rem;
+ }
