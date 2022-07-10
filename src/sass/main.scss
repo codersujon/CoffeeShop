@@ -10,23 +10,49 @@ $lightColor: #666;
 $border: .2rem solid var(--black);
 
 /* BOX-SHADOW */
-$box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+$boxShadow:0 .5rem 1rem rgba(0, 0, 0, .1);
 
 
-*{
-    font-family: 'Nunito', sans-serif;
-    margin:0; 
-    padding:0;
-    outline: none; 
-    border:none;
-    box-sizing: border-box;
-    text-decoration: none;
-    text-transform: capitalize;
- }
+* {
+   font-family: 'Nunito', sans-serif;
+   margin: 0;
+   padding: 0;
+   outline: none;
+   border: none;
+   box-sizing: border-box;
+   text-decoration: none;
+   text-transform: capitalize;
+}
 
- html{
-    font-size: 62.5%;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    scroll-padding-top: 6.5rem;
- }
+*::selection {
+   background-color: $primaryColor;
+   color: $white;
+}
+
+::-webkit-scrollbar {
+   height: .5rem;
+   width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+   background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: $primaryColor;
+}
+
+html {
+   font-size: 62.5%;
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+   scroll-padding-top: 6.5rem;
+}
+
+section {
+   padding: 3rem 2rem;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+@import 'header';

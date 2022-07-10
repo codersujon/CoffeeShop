@@ -1,9 +1,16 @@
 import React from 'react'
+import Logo from './logo';
+import Navbar from './Navbar';
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <header className="header">
+      <section className="flex">
+        <Logo />
+        <Navbar />
+      </section>
+    </header>
   )
 }
 
-export default Header
+export default Header;
