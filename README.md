@@ -4,6 +4,7 @@
 
 
 > ****Dependencies Packages****
+ - sass
  - node-sass
  - react
  - react-dom
