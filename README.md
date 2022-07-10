@@ -4,7 +4,8 @@
 
 
 > ****Dependencies Packages****
- - web-vitals
- - react-scripts
- - react-dom
+ - node-sass
  - react
+ - react-dom
+ - react-scripts
+ - web-vitals
