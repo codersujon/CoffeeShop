@@ -12,3 +12,7 @@
  - react-dom
  - react-scripts
  - web-vitals
+
+
+> ****Images Usage****
+ - SASS, Background: url(../images/home-bg.jpg)
