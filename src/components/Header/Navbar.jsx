@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars , faTimes } from '@fortawesome/free-solid-svg-icons';
 import CustomNavLink from './CustomNavLink';
-import ROUTES from '../../routes';
+import ROUTES from '../../Data/routes';
 
 
 const Navbar = () => {

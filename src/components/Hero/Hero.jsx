@@ -9,7 +9,7 @@ const Hero = (props) => {
                 <div className="hero__content">
                     <h3>{title}</h3>
                     <p>{text}</p>
-                    <SiteButton to="/about" name="about us" className="btn"/>
+                    <SiteButton to="about" name="about us" className="btn"/>
                 </div>
             </section>
         </div>
