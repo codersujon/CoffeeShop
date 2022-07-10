@@ -1,15 +1,24 @@
 import React from 'react';
 import SectionTitle from './../SectionTitle/SectionTitle';
+import GalleryItem from './GalleryItem';
+import GalleryInfo from './../../Data/galleryInfo';
 
 const Gallery = () => {
   return (
     <section className="gallery">
         <SectionTitle title="our gallery"/>
+
         <div className="gallery__container">
-            <div className="gallery__item">
-                <img src="" alt="" />
-            </div>
+            {GalleryInfo.map(gallery=>{
+                return(
+                    <GalleryItem 
+                        key={gallery.key}
+                        image={gallery.image}
+                    />
+                )
+            })}
         </div>
+        
     </section>
   )
 }

@@ -6,6 +6,7 @@ import Hero from '../components/Hero/Hero';
 import About from '../components/About/About';
 import Facility from '../components/Facility/Facility';
 import Menu from '../components/Menu/Menu';
+import Gallery from '../components/Gallery/Gallery';
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
               <About />
               <Facility />
               <Menu />
+              <Gallery />
             </main>
           {/* <Footer/> */}
    </div>

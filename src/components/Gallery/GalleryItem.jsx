@@ -1,9 +1,11 @@
 import React from 'react'
 
-const GalleryItem = () => {
-  return (
-    <div>GalleryItem</div>
-  )
+const GalleryItem = ({image}) => {
+    return (
+        <div className="gallery__item">
+            <img src={image} alt="Gallery__img" />
+        </div>
+    )
 }
 
 export default GalleryItem
