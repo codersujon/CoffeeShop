@@ -13,8 +13,13 @@ $border: .2rem solid $black;
 $boxShadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 
 
+/* FONT FAMILY */
+$nunito: 'Nunito', sans-serif;
+$meriendaOne:'Merienda One', cursive;
+
+
 * {
-   font-family: 'Nunito', sans-serif;
+   font-family: $nunito;
    margin: 0;
    padding: 0;
    outline: none;
@@ -22,6 +27,11 @@ $boxShadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
    box-sizing: border-box;
    text-decoration: none;
    text-transform: capitalize;
+}
+
+h1, h2, h3, h4, h5, h6{
+   font-family: $meriendaOne;
+   font-weight: normal;
 }
 
 *::selection {
@@ -66,3 +76,4 @@ section {
 @import 'header';
 @import 'hero';
 @import 'button';
+@import 'about';
