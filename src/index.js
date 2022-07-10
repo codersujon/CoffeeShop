@@ -7,6 +7,8 @@ import App from './App';
 import Home from './pages/Home';
 import About from './components/About/About';
 import Menu from './components//Menu/Menu';
+import Gallery from './components/Gallery/Gallery';
+import Team from './components/Team/Team';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,12 +18,11 @@ root.render(
   <>
    <Router>
       <Routes>
-          <Route path="/" element={<App/>}></Route>
           <Route index element={<Home/>}></Route>
-          <Route path="/about" element={<About/>}></Route>
-          <Route path="/menu" element={<Menu/>}></Route>
-          <Route path="" element={<Home/>}></Route>
-          <Route path="" element={<Home/>}></Route>
+          <Route path="about" element={<About/>}></Route>
+          <Route path="menu" element={<Menu/>}></Route>
+          <Route path="gallery" element={<Gallery/>}></Route>
+          <Route path="team" element={<Team/>}></Route>
       </Routes>
    </Router>
   </>

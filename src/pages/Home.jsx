@@ -7,6 +7,7 @@ import About from '../components/About/About';
 import Facility from '../components/Facility/Facility';
 import Menu from '../components/Menu/Menu';
 import Gallery from '../components/Gallery/Gallery';
+import Team from '../components/Team/Team';
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
               <Facility />
               <Menu />
               <Gallery />
+              <Team />
             </main>
           {/* <Footer/> */}
    </div>

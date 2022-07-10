@@ -1,0 +1,24 @@
+.team {
+    &__container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 33rem);
+        gap: 1.5rem;
+        justify-content: center;
+    }
+
+    &__member {
+        text-align: center;
+
+        & img {
+            width: 100%;
+            object-fit: cover;
+            margin-bottom: .5rem;
+        }
+
+        & h3 {
+            font-size: 2rem;
+            color: $black;
+            font-family: $nunito;
+        }
+    }
+}
