@@ -1,0 +1,29 @@
+.facility {
+    &__container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+        gap: 1.5rem;
+        align-items: flex-start;
+    }
+
+    &__Item {
+        text-align: center;
+
+        & img {
+            height: 10rem;
+            margin-bottom: .5rem;
+        }
+
+        & h3 {
+            font-size: 2rem;
+            color: $black;
+            margin: 1rem 0;
+        }
+
+        & p {
+            line-height: 2;
+            font-size: 1.5rem;
+            color: $lightColor;
+        }
+    }
+}
