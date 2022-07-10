@@ -4,6 +4,7 @@
 
 
 > ****Dependencies Packages****
- - react-router-dom
-
-
+ - web-vitals
+ - react-scripts
+ - react-dom
+ - react
