@@ -20,6 +20,7 @@
        }
  
        & .navbar{
+         display: flex;
           & a{
              margin-left: 2rem;
              font-size: 2rem;
@@ -30,6 +31,10 @@
                 color: $primaryColor;
              }
           }
+          
+          & .active{
+            color: $primaryColor;
+         }
        }
     }
     & .menu-btn{
