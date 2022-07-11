@@ -8,6 +8,7 @@ import Facility from '../components/Facility/Facility';
 import Menu from '../components/Menu/Menu';
 import Gallery from '../components/Gallery/Gallery';
 import Team from '../components/Team/Team';
+import Contact from '../components/Contact/Contact';
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
               <Menu />
               <Gallery />
               <Team />
+              <Contact />
             </main>
           {/* <Footer/> */}
    </div>
