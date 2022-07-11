@@ -1,0 +1,50 @@
+.footer {
+    &__container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+        gap: 1.5rem;
+        align-items: flex-start;
+    }
+
+    &__widget {
+        text-align: center;
+
+        & svg {
+            font-size: 2.5rem;
+            line-height: 6rem;
+            height: 6rem;
+            width: 6rem;
+            border-radius: 50%;
+            background-color: $primaryColor;
+            color: $white;
+            margin-bottom: 1rem;
+        }
+
+        & h3 {
+            margin: 1rem 0;
+            font-size: 2rem;
+            color: $black;
+            font-family: $nunito;
+        }
+
+        & p {
+            line-height: 2;
+            font-size: 1.6rem;
+            color: $lightColor;
+            text-transform: lowercase;
+        }
+    }
+
+    &__credit {
+        text-align: center;
+        margin-top: 3rem;
+        padding-top: 2.5rem;
+        border-top: $border;
+        font-size: 2rem;
+        color: $black;
+
+        & span {
+            color: $primaryColor;
+        }
+    }
+}

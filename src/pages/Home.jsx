@@ -26,7 +26,7 @@ const Home = () => {
               <Team />
               <Contact />
             </main>
-          {/* <Footer/> */}
+          <Footer/>
    </div>
   )
 }

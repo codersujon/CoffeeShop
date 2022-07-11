@@ -9,7 +9,7 @@ import About from './components/About/About';
 import Menu from './components//Menu/Menu';
 import Gallery from './components/Gallery/Gallery';
 import Team from './components/Team/Team';
-
+import Contact from './components/Contact/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,6 +23,7 @@ root.render(
           <Route path="menu" element={<Menu/>}></Route>
           <Route path="gallery" element={<Gallery/>}></Route>
           <Route path="team" element={<Team/>}></Route>
+          <Route path="contact" element={<Contact/>}></Route>
       </Routes>
    </Router>
   </>
