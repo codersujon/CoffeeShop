@@ -1,7 +1,6 @@
 import React from 'react'
 import SectionTitle from '../SectionTitle/SectionTitle';
 import FacilityItem from './FacilityItem';
-import FacltyIcon1 from '../../images/icon-1.png'
 import FacilityInfo from '../../Data/facilityInfo';
 
 const Facility = () => {

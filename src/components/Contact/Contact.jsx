@@ -1,7 +1,6 @@
 import React from 'react'
 import SectionTitle from '../SectionTitle/SectionTitle';
-import SiteButton from '../Button/SiteButton';
-import ContactImg from "../../images/contact-img.svg";
+import ContactImg from "../../Assets/images/contact-img.svg";
 
 const Contact = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutImg from '../../images/about-img.svg';
+import AboutImg from '../../Assets/images/about-img.svg';
 import SiteButton from '../Button/SiteButton';
 
 const About = ({title, text}) => {

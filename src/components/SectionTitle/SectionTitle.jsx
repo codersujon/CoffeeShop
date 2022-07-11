@@ -1,5 +1,5 @@
 import React from 'react'
-import HeadingImg from "../../images/heading-img.png";
+import HeadingImg from "../../Assets/images/heading-img.png";
 
 
 const SectionTitle = (props) => {
