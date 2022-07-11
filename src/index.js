@@ -4,12 +4,12 @@ import reportWebVitals from './reportWebVitals';
 import './Assets/sass/main.scss';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import App from './App';
-import Home from './pages/Home';
-import About from './components/About/About';
-import Menu from './components//Menu/Menu';
-import Gallery from './components/Gallery/Gallery';
-import Team from './components/Team/Team';
-import Contact from './components/Contact/Contact';
+import Home from './Pages/Home';
+import About from './Components/About/About';
+import Menu from './Components//Menu/Menu';
+import Gallery from './Components/Gallery/Gallery';
+import Team from './Components/Team/Team';
+import Contact from './Components/Contact/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

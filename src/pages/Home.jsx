@@ -1,14 +1,13 @@
 import React from 'react'
-import Header from '../components/Header/Header';
-import Footer from '../components/Footer//Footer';
-import { Outlet  } from 'react-router-dom';
-import Hero from '../components/Hero/Hero';
-import About from '../components/About/About';
-import Facility from '../components/Facility/Facility';
-import Menu from '../components/Menu/Menu';
-import Gallery from '../components/Gallery/Gallery';
-import Team from '../components/Team/Team';
-import Contact from '../components/Contact/Contact';
+import Header from '../Layout/Header/Header';
+import Footer from '../Layout/Footer/Footer';
+import Hero from '../Components/Hero/Hero';
+import About from '../Components/About/About';
+import Facility from '../Components/Facility/Facility';
+import Menu from '../Components/Menu/Menu';
+import Gallery from '../Components/Gallery/Gallery';
+import Team from '../Components/Team/Team';
+import Contact from '../Components/Contact/Contact';
 
 const Home = () => {
   return (
