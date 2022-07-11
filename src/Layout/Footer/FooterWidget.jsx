@@ -1,15 +1,14 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope,  } from '@fortawesome/free-regular-svg-icons';
+import React from 'react';
 
 
 const FooterWidget = (props) => {
+  const { icon, title, text1, text2 } = props;
   return (
     <div className="footer__widget">
-        <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
-        <h3>our email</h3>
-        <p>csesujon155@gmail.com</p>
-        <p>csesujon155@gmail.com</p>
+        <i className={icon}></i>
+        <h3>{title}</h3>
+        <p>{text1}</p>
+        <p>{text2}</p>
     </div>
   )
 }
