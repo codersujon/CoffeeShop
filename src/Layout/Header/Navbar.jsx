@@ -7,10 +7,16 @@ import ROUTES from '../../Data/routes';
 
 const Navbar = () => {
 
-  function handleClick(){
-    
-  }
+  //useState hook
 
+  const [ showMenu, setShowMenu ] = useState(false);
+  
+  function handleClick(){
+    let navbar = document.querySelector('.navbar');
+    navbar.classList.toggle("active");
+    setShowMenu(!showMenu); 
+  }
+  
   return (
     <>
       <nav className="navbar">
@@ -21,10 +27,13 @@ const Navbar = () => {
             <CustomNavLink key={link.key} linkTo={link.to} linkName={link.name} />
           )
         })}
+        
       </nav>
 
       <div className="menu-btn" onClick={handleClick}>
-        <FontAwesomeIcon icon={faBars}></FontAwesomeIcon>
+        <FontAwesomeIcon 
+            icon={faBars} 
+        />
       </div>
     </>
   )

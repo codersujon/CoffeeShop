@@ -21,3 +21,5 @@
  > ****React Feature Usage****
  - React Router DOM
  - Props
+ - map()
+ - useState ()
