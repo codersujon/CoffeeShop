@@ -6,12 +6,12 @@ const ROUTES = [
     },
     {
         key: 2,
-        to: "/about",
+        to: "about",
         name: "About"
     },
     {
         key: 3,
-        to: "/menu",
+        to: "menu",
         name: "Menu"
     },
     {

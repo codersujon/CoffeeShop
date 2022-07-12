@@ -12,7 +12,6 @@ import Contact from '../Components/Contact/Contact';
 const Home = () => {
   return (
    <div>
-          <Header/>
             <main>
               <Hero 
                 title="coffee heaven" 

@@ -7,7 +7,6 @@
  - react-router-dom
  - react-fontawesome
  - sass
- - node-sass
  - react
  - react-dom
  - react-scripts
