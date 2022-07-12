@@ -9,17 +9,17 @@ const Navbar = () => {
 
   //useState hook
 
-  const [ showMenu, setShowMenu ] = useState(false);
+  const [ isMobile, setIsMobile ] = useState(false);
   
   function handleClick(){
-    let navbar = document.querySelector('.navbar');
-    navbar.classList.toggle("active");
-    setShowMenu(!showMenu); 
+    // let navbar = document.querySelector('.navbar');
+    // navbar.classList.toggle("active");
+    setIsMobile(!isMobile); 
   }
   
   return (
     <>
-      <nav className="navbar">
+      <nav className={isMobile ? "navbar active": "navbar"}>
         {/* NAVBAR LOOPING */}
 
         {ROUTES.map(link =>{
@@ -31,9 +31,7 @@ const Navbar = () => {
       </nav>
 
       <div className="menu-btn" onClick={handleClick}>
-        <FontAwesomeIcon 
-            icon={faBars} 
-        />
+        {isMobile ? <FontAwesomeIcon icon={faTimes} /> : <FontAwesomeIcon icon={faBars} /> }
       </div>
     </>
   )
