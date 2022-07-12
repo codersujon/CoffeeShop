@@ -12,19 +12,19 @@ import Contact from '../Components/Contact/Contact';
 const Home = () => {
   return (
    <div>
-            <main>
-              <Hero 
-                title="coffee heaven" 
-                text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, eum similique qui iste velit expedita mollitia? Nesciunt tempore consequatur repellendus!"
-              />
-              <About />
-              <Facility />
-              <Menu />
-              <Gallery />
-              <Team />
-              <Contact />
-            </main>
-          <Footer/>
+        <main>
+          <Hero 
+            title="coffee heaven" 
+            text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, eum similique qui iste velit expedita mollitia? Nesciunt tempore consequatur repellendus!"
+          />
+          <About />
+          <Facility />
+          <Menu />
+          <Gallery />
+          <Team />
+          <Contact />
+        </main>
+        <Footer />
    </div>
   )
 }

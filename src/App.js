@@ -8,6 +8,7 @@ import Gallery from './Components/Gallery/Gallery';
 import Team from './Components/Team/Team';
 import Contact from './Components/Contact/Contact';
 import Error from "./Components/ErrorPage/Error";
+import Footer from "./Layout/Footer/Footer";
 
 function App() {
   return (
