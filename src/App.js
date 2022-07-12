@@ -1,31 +1,15 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from './Layout/Header/Header';
-import Home from './Pages/Home';
-import About from './Components/About/About';
-import Menu from './Components//Menu/Menu';
-import Gallery from './Components/Gallery/Gallery';
-import Team from './Components/Team/Team';
-import Contact from './Components/Contact/Contact';
-import Error from "./Components/ErrorPage/Error";
-import Footer from "./Layout/Footer/Footer";
+import { BrowserRouter } from "react-router-dom";
+import Header from './Layouts/Header/Header';
+import Routers from "./Routes/Routers";
+
 
 function App() {
   return (
-    <>
-      <Router>
+      <BrowserRouter>
           <Header />
-          <Routes>
-                <Route exact path="/" element={<Home />} />
-                <Route exact path="about" element={<About/>} />
-                <Route exact path="menu" element={<Menu/>} />
-                <Route exact path="gallery" element={<Gallery/>} />
-                <Route exact path="team" element={<Team/>} />
-                <Route exact path="contact" element={<Contact/>} />
-                <Route path="*" element={<Error />} />
-          </Routes>
-      </Router>
-    </>
+          <Routers />
+      </BrowserRouter>
   );
 }
 

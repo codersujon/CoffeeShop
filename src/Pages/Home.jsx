@@ -1,6 +1,5 @@
 import React from 'react'
-import Header from '../Layout/Header/Header';
-import Footer from '../Layout/Footer/Footer';
+import Footer from '../Layouts/Footer/Footer';
 import Hero from '../Components/Hero/Hero';
 import About from '../Components/About/About';
 import Facility from '../Components/Facility/Facility';
