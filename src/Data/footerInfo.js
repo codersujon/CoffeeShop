@@ -3,7 +3,7 @@ const FooterInfo = [
         key: 1,
         icon:"fa-solid fa-envelope",
         title:"our email",
-        text1:"shaikhanas@gmail.com",
+        text1:"csesujon155@gmail.com",
         text2:"csesujon155@gmail.com"
     },
     {
