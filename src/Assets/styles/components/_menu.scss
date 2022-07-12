@@ -1,11 +1,6 @@
 .menu {
     &__container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, 30rem);
-        gap: 2rem;
-        align-items: flex-start;
-        justify-content: center;
-
+        @include section__container(33rem, 2rem);
     }
     &__item {
         text-align: center;
@@ -16,9 +11,7 @@
         }
 
         & h3 {
-            font-size: 2rem;
-            color: $black;
-            font-family: $nunito;
+            @extend .siteHeding;
         }
     }
 }

@@ -11,9 +11,22 @@
    text-transform: capitalize;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
    font-family: $meriendaOne;
    font-weight: normal;
+   color: $black;
+}
+
+p {
+   font-size: 1.5rem;
+   font-family: $nunito;
+   color: $lightColor;
+   line-height: 2.2;
 }
 
 *::selection {
@@ -40,11 +53,11 @@ html {
    scroll-behavior: smooth;
    scroll-padding-top: 6.5rem;
 
-   @media(max-width: 991px){
+   @media(max-width: 991px) {
       font-size: 55%;
    }
 
-   @media(max-width: 450px){
+   @media(max-width: 450px) {
       font-size: 50%;
    }
 }
@@ -54,4 +67,9 @@ section {
    max-width: 1200px;
    margin: 0 auto;
    transition: .3s;
+}
+
+.siteHeding {
+   font-size: 2rem;
+   font-family: $nunito;
 }

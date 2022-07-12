@@ -1,9 +1,6 @@
 .footer {
     &__container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-        gap: 1.5rem;
-        align-items: flex-start;
+        @include section__container(minmax(27rem, 1fr), 1.5rem);
     }
 
     &__widget {
@@ -21,16 +18,11 @@
         }
 
         & h3 {
+            @extend .siteHeding;
             margin: 1rem 0;
-            font-size: 2rem;
-            color: $black;
-            font-family: $nunito;
         }
 
         & p {
-            line-height: 2;
-            font-size: 1.6rem;
-            color: $lightColor;
             text-transform: lowercase;
         }
     }

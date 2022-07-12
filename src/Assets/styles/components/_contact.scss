@@ -1,9 +1,6 @@
 .contact {
     & .row {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 2rem;
+        @include flex-center-wrap(2rem);
     }
 
     &__img {
@@ -23,7 +20,6 @@
         & h3 {
             font-size: 2.5rem;
             margin-bottom: 1rem;
-            color: $black;
         }
 
         & .box {

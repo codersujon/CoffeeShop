@@ -22,19 +22,10 @@
 
             & h3 {
                 font-size: 6rem;
-                color: $black;
-                font-family: 'Merienda One', cursive;
 
                 @media(max-width: 768px) {
                     font-size: 4rem;
                 }
-            }
-
-            & p {
-                padding: 1rem 0;
-                font-size: 1.6rem;
-                color: $black;
-                line-height: 2;
             }
         }
     }

@@ -1,9 +1,6 @@
 .team {
     &__container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, 33rem);
-        gap: 1.5rem;
-        justify-content: center;
+        @include section__container(33rem, 1.5rem);
     }
 
     &__member {
@@ -16,9 +13,7 @@
         }
 
         & h3 {
-            font-size: 2rem;
-            color: $black;
-            font-family: $nunito;
+            @extend .siteHeding;
         }
     }
 }
