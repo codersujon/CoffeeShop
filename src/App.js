@@ -7,6 +7,7 @@ import Menu from './Components//Menu/Menu';
 import Gallery from './Components/Gallery/Gallery';
 import Team from './Components/Team/Team';
 import Contact from './Components/Contact/Contact';
+import Error from "./Components/ErrorPage/Error";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
                 <Route exact path="gallery" element={<Gallery/>} />
                 <Route exact path="team" element={<Team/>} />
                 <Route exact path="contact" element={<Contact/>} />
-                
+                <Route path="*" element={<Error />} />
           </Routes>
       </Router>
     </>
