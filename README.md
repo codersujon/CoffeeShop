@@ -15,6 +15,7 @@
 
 > ****Images Usage****
  - SASS, Background: url(../images/home-bg.jpg)
+ - JSON
 
 
  > ****React Feature Usage****
