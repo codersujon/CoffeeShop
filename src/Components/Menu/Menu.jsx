@@ -1,7 +1,7 @@
 import React from 'react'
 import SectionTitle from '../SectionTitle/SectionTitle';
 import MenuItem from './MenuItem';
-import MenuInfo from '../../Data/menuInfo';
+import MenuInfo from '../../Data/menuInfo.json';
 
 const Menu = () => {
     return (

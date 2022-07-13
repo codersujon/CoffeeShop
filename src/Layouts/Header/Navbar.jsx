@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars , faTimes } from '@fortawesome/free-solid-svg-icons';
 import CustomNavLink from './CustomNavLink';
-import ROUTES from '../../Data/routes';
+import Routes from '../../Data/routes.json';
 
 
 const Navbar = () => {
@@ -22,7 +22,7 @@ const Navbar = () => {
       <nav className={isMobile ? "navbar active": "navbar"}>
         {/* NAVBAR LOOPING */}
 
-        {ROUTES.map(link =>{
+        {Routes.map(link =>{
           return(
             <CustomNavLink key={link.key} linkTo={link.to} linkName={link.name} />
           )

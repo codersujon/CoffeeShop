@@ -1,7 +1,7 @@
 import React from 'react';
 import SectionTitle from './../SectionTitle/SectionTitle';
 import TeamMember from './TeamMember';
-import TeamInfo from './../../Data/teamInfo';
+import TeamInfo from './../../Data/teamInfo.json';
 
 const Team = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import FooterWidget from './FooterWidget';
-import FooterInfo from '../../Data/footerInfo';
+import FooterInfo from '../../Data/footerInfo.json';
 
 const Footer = (props) => {
   return (

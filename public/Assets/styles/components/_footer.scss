@@ -1,0 +1,43 @@
+.footer {
+    &__container {
+        @include section__container(minmax(27rem, 1fr), 1.5rem);
+    }
+
+    &__widget {
+        text-align: center;
+
+        & i {
+            font-size: 2.5rem;
+            line-height: 6rem;
+            height: 6rem;
+            width: 6rem;
+            border-radius: 50%;
+            background-color: $primaryColor;
+            color: $white;
+            margin-bottom: 1rem;
+        }
+
+        & h3 {
+            @extend .siteHeding;
+            margin: 1rem 0;
+        }
+
+        & p {
+            text-transform: lowercase;
+        }
+    }
+
+    &__credit {
+        text-align: center;
+        margin-top: 3rem;
+        padding-top: 2.5rem;
+        border-top: $border;
+        font-size: 2rem;
+        color: $black;
+
+        & span {
+            color: $primaryColor;
+            text-transform: uppercase;
+        }
+    }
+}

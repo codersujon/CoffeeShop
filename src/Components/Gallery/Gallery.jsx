@@ -1,7 +1,7 @@
 import React from 'react';
 import SectionTitle from './../SectionTitle/SectionTitle';
 import GalleryItem from './GalleryItem';
-import GalleryInfo from './../../Data/galleryInfo';
+import GalleryInfo from './../../Data/galleryInfo.json';
 
 const Gallery = () => {
   return (

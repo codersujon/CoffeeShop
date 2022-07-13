@@ -1,7 +1,8 @@
 import React from 'react'
 import SectionTitle from '../SectionTitle/SectionTitle';
 import FacilityItem from './FacilityItem';
-import FacilityInfo from '../../Data/facilityInfo';
+//JSON DATA
+import FacilityInfo from '../../Data/facilityInfo.json';
 
 const Facility = () => {
     return (
@@ -10,12 +11,12 @@ const Facility = () => {
 
             <div className="facility__container">
                 {/* FACILITY ITEM LOOPING */}
-                {FacilityInfo.map(facility =>
+                {FacilityInfo.map(faci =>
                     <FacilityItem 
-                        key={facility.key} 
-                        image={facility.image} 
-                        title={facility.title}
-                        text={facility.text}
+                        key={faci.key} 
+                        image={faci.image} 
+                        title={faci.title}
+                        text={faci.text}
                     /> 
                 )}
 
