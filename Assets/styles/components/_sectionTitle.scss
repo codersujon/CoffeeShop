@@ -1,0 +1,18 @@
+.sectionTitle {
+    text-align: center;
+    margin-bottom: 3rem;
+
+    & img {
+        height: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    & h3 {
+        font-size: 4rem;
+        color: $black;
+
+        @media(max-width: 450px) {
+            font-size: 3rem;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+//Here parameter passes
+@mixin section__container($value, $gapValue) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, $value);
+    gap: $gapValue;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+@mixin flex-center-wrap($gapValue) {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: $gapValue;
+}
+
+
+

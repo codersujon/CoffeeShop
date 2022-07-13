@@ -1,0 +1,19 @@
+.team {
+    &__container {
+        @include section__container(33rem, 1.5rem);
+    }
+
+    &__member {
+        text-align: center;
+
+        & img {
+            width: 100%;
+            object-fit: cover;
+            margin-bottom: .5rem;
+        }
+
+        & h3 {
+            @extend .siteHeding;
+        }
+    }
+}

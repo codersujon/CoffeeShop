@@ -1,0 +1,12 @@
+.gallery {
+    &__container {
+        @include section__container(33rem, 1.5rem);
+    }
+    &__item {
+        & img {
+            height: 250px;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+.contact {
+    & .row {
+        @include flex-center-wrap(2rem);
+    }
+
+    &__img {
+        flex: 1 1 50rem;
+
+        & img {
+            width: 100%;
+        }
+    }
+
+    & form {
+        flex: 1 1 30rem;
+        border: $border;
+        padding: 2rem;
+        text-align: center;
+
+        & h3 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        & .box {
+            width: 100%;
+            padding: 1.4rem;
+            font-size: 1.8rem;
+            color: $black;
+            border: $border;
+            margin: 1rem 0;
+        }
+    }
+}
