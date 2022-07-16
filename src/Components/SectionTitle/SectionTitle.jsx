@@ -1,12 +1,9 @@
 import React from 'react'
-import HeadingImg from "../../Assets/images/heading-img.png";
 
-
-const SectionTitle = (props) => {
-    const { title } = props;
+const SectionTitle = ( { title }) => {
   return (
     <div className="sectionTitle">
-        <img src={HeadingImg} alt="Heding-Img" />
+        <img src="assets/images/heading-img.png" alt="Heding-Img" />
         <h3>{title}</h3>
     </div>
   )

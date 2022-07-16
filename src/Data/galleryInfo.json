@@ -1,26 +1,25 @@
-[
-    {
+[{
         "key": 1,
-        "image": "/Assets/images/gallery-1.webp"
+        "image": "/assets/images/gallery-1.webp"
     },
     {
         "key": 2,
-        "image": "/Assets/images/gallery-2.webp"
+        "image": "/assets/images/gallery-2.webp"
     },
     {
         "key": 3,
-        "image": "/Assets/images/gallery-3.webp"
+        "image": "/assets/images/gallery-3.webp"
     },
     {
         "key": 4,
-        "image": "/Assets/images/gallery-4.webp"
+        "image": "/assets/images/gallery-4.webp"
     },
     {
         "key": 5,
-        "image": "/Assets/images/gallery-5.webp"
+        "image": "/assets/images/gallery-5.webp"
     },
     {
         "key": 6,
-        "image": "/Assets/images/gallery-6.webp"
+        "image": "/assets/images/gallery-6.webp"
     }
 ]

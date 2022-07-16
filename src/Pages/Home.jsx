@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '../Layouts/Footer/Footer';
 import Hero from '../Components/Hero/Hero';
 import About from '../Components/About/About';
 import Facility from '../Components/Facility/Facility';
@@ -7,6 +6,7 @@ import Menu from '../Components/Menu/Menu';
 import Gallery from '../Components/Gallery/Gallery';
 import Team from '../Components/Team/Team';
 import Contact from '../Components/Contact/Contact';
+import Footer from '../Layouts/Footer/Footer';
 
 const Home = () => {
   return (

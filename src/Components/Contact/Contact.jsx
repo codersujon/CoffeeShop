@@ -1,6 +1,5 @@
 import React from 'react'
 import SectionTitle from '../SectionTitle/SectionTitle';
-import ContactImg from "../../Assets/images/contact-img.svg";
 
 const Contact = () => {
   return (
@@ -8,7 +7,7 @@ const Contact = () => {
         <SectionTitle  title="contact us" />
         <div className="row">
             <div className="contact__img">
-                <img src={ContactImg} alt="Contact Image" />
+                <img src="/assets/images/contact-img.svg" alt="Contact__Image" />
             </div>
            <form action="" method="post">
                 <h3>book a table</h3>

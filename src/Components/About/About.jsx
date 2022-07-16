@@ -1,12 +1,11 @@
 import React from 'react'
-import AboutImg from '../../Assets/images/about-img.svg';
 import SiteButton from '../Button/SiteButton';
 
 const About = ({title, text}) => {
   return (
     <section className="about">
         <div className="about__img">
-            <img src={AboutImg} alt="About__img" />
+            <img src="/ssets/images/about-img.svg" alt="About__img" />
         </div>
         <div className="about__content">
             <h3>A cup of coffee can complete your day</h3>
