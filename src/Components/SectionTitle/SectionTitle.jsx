@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import HedingImage from '../../Assets/images/heading-img.png';
 
 const SectionTitle = ( { title }) => {
   return (
     <div className="sectionTitle">
-        <img src="assets/images/heading-img.png" alt="Heding-Img" />
+        <img src={HedingImage} alt="Heding-Img" />
         <h3>{title}</h3>
     </div>
   )

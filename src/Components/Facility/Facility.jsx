@@ -1,7 +1,8 @@
 import React from 'react'
 import SectionTitle from '../SectionTitle/SectionTitle';
 import FacilityItem from './FacilityItem';
-import FacilityInfo from '../../Data/facilityInfo.json';
+import FACILITY from '../../Data/facilityInfo';
+
 
 const Facility = () => {
     return (
@@ -9,17 +10,20 @@ const Facility = () => {
             <SectionTitle title="our facility" />
 
             <div className="facility__container">
-                {/* FACILITY ITEM LOOPING */}
-                {FacilityInfo.map(faci =>{
+            {/* FACILITY ITEM LOOPING */}
+
+            {
+                FACILITY.map(item => {
                     return(
                         <FacilityItem 
-                            key={faci.key} 
-                            image={faci.image} 
-                            title={faci.title}
-                            text={faci.text}
-                        /> 
-                    )}
-                )}
+                            key={item.key}
+                            image="https://picsum.photos/300/200"
+                            title={item.title}
+                            text={item.text}
+                        />
+                    )
+                })
+            }
 
             </div>
         </section>

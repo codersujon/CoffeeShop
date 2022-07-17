@@ -9,15 +9,17 @@ const Menu = () => {
             <SectionTitle title="popular menu" />
             <div className="menu__container">
                 {/* MENU LOOPING */}
-                {MenuInfo.map(menu => {
-                    return (
-                        <MenuItem
-                            key={menu.key}
-                            image={menu.image}
-                            title={menu.title}
-                        />
-                    )
-                })}
+                {
+                    MenuInfo.map(item=>{
+                        return(
+                            <MenuItem 
+                                key={item.id}
+                                image= "https://picsum.photos/300/200"
+                                title={item.title}
+                            />
+                        )
+                    })
+                }
             </div>
         </section>
     )

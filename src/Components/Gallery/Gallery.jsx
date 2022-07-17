@@ -9,14 +9,16 @@ const Gallery = () => {
         <SectionTitle title="our gallery"/>
 
         <div className="gallery__container">
-            {GalleryInfo.map(gallery=>{
-                return(
-                    <GalleryItem 
-                        key={gallery.key}
-                        image={gallery.image}
-                    />
-                )
-            })}
+            {
+                GalleryInfo.map(item=>{
+                    return(
+                       <GalleryItem 
+                            key={item.id}
+                            image="https://picsum.photos/300/200"
+                       /> 
+                    )
+                })
+            }
         </div>
         
     </section>
