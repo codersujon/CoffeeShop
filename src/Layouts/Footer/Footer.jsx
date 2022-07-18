@@ -10,6 +10,7 @@ const Footer = (props) => {
         {FooterInfo.map(widget => {
           return (
             <FooterWidget
+              key={widget.key}
               icon={widget.icon}
               title={widget.title}
               text1={widget.text1}

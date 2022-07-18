@@ -13,7 +13,7 @@ const Team = () => {
                 TeamInfo.map(item=>{
                     return(
                        <TeamMember 
-                            key={item.id}
+                            key={item.key}
                             image="https://picsum.photos/300/200"
                             title={item.title}
                        /> 

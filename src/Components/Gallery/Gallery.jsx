@@ -13,7 +13,7 @@ const Gallery = () => {
                 GalleryInfo.map(item=>{
                     return(
                        <GalleryItem 
-                            key={item.id}
+                            key={item.key}
                             image="https://picsum.photos/300/200"
                        /> 
                     )

@@ -13,7 +13,7 @@ const Menu = () => {
                     MenuInfo.map(item=>{
                         return(
                             <MenuItem 
-                                key={item.id}
+                                key={item.key}
                                 image= "https://picsum.photos/300/200"
                                 title={item.title}
                             />
