@@ -9,7 +9,7 @@ const Contact = () => {
         <SectionTitle  title="contact us" />
         <div className="row">
             <div className="contact__img">
-                <img src={ContactImage} alt="Contact__Image" />
+                <img src={ContactImage} alt="" />
             </div>
            <form action="" method="post">
                 <h3>book a table</h3>

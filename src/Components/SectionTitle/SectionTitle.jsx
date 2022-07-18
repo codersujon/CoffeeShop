@@ -4,7 +4,7 @@ import HedingImage from '../../Assets/images/heading-img.png';
 const SectionTitle = ( { title }) => {
   return (
     <div className="sectionTitle">
-        <img src={HedingImage} alt="Heding-Img" />
+        <img src={HedingImage} alt="" />
         <h3>{title}</h3>
     </div>
   )
