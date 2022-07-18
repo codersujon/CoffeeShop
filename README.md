@@ -1,6 +1,6 @@
 # CoffeeShop Restaurant
 
-**[Live Demo](https://main--cofeeshop-cs.netlify.app/)**
+<!-- **[Live Demo](https://main--cofeeshop-cs.netlify.app/)** -->
 
 
 > ****Dependencies Packages****
